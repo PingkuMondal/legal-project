@@ -3,11 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="tailwind.css">
+    <script src="https://kit.fontawesome.com/2ee332da59.js" crossorigin="anonymous"></script>
     <title>legal project</title>
 </head>
 <body>
-    <header></header>
+    <header class="w-[80%] mx-auto mt-5">
+        <!-- nav bar start -->
+        <nav class="flex justify-between items-center mb-10">
+            <img src="./images/logo2.png" alt="">
+            <ul class="hidden md:block">
+                <li class="flex justify-between gap-4 font-bold text-[#707070]">
+                    <a href="">Home </a>
+                    <a href="">Services <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="">Cases <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="">Blog <i class="fa-solid fa-angle-down"></i></a>
+                    <a href="">Contact Us <i class="fa-solid fa-angle-down"></i></a>
+                </li>
+            </ul>
+            <button class="hidden md:block font-bold text-white bg-[#B68C5A] py-2 px-4 rounded-md"><a href="">Free Consultation</a></button>
+            <div class="md:hidden"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+        <!-- nav bar end -->
+        <!-- hero section start -->
+        <div class=" bg-[url(images/banner.png)] bg-center bg-no-repeat mb-5 rounded-md">
+             <div class="justify-center items-center text-center w-[60%] mx-auto">
+            <h1 class="text-6xl pt-30 mb-5 text-white font-bold">We Provide Effective Legal Solutions</h1>
+            <p class="text-xl mb-5 text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+            <div class="gap-0 pb-30">
+                <input class="py-2 px-10 bg-white rounded-md" type="search" name="" id="search" placeholder="Search your services">
+
+                <button  class="font-bold text-white bg-[#B68C5A] py-2 px-6 rounded-md "><a href="">Search</a></button>
+            </div>
+         </div>
+        </div>
+    </header>
     <main></main>
     <footer></footer>
 </body>
